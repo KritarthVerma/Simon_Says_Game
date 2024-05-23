@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+
+h1,h2{
+    color : white;
+}
+
+.headings {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    margin: 1rem;
+}
+
+.btn-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px;
+    gap: 20px;
+}
+
+.red {
+    background-color: rgb(255,23,23);
+    border-top-left-radius: 200px;
+}
+
+.yellow {
+    background-color: rgb(255,255,31);
+    border-bottom-left-radius: 200px;
+}
+
+.blue {
+    background-color: rgb(59,121,255);
+    border-bottom-right-radius: 200px;
+}
+
+.green {
+    background-color: rgb(17,155,17);
+    border-top-right-radius: 200px;
+}
+
+.green-flash {
+    background-color: rgb(221,255,221);
+}
+
+.yellow-flash {
+    background-color: rgb(255,255,206);
+}
+
+.red-flash{ 
+    background-color: rgb(248,205,205);
+}
+
+.blue-flash {
+    background-color: rgb(211,225,255);
+}
